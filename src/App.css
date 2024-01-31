@@ -1,0 +1,69 @@
+#root {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.game-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  max-width: 450px;
+  margin: auto;
+}
+
+.game-container--fBlock{
+  margin: auto;
+  margin-bottom: 25px;
+  background-color: red;
+  border-top-left-radius: 50%; 
+  height: 200px; 
+  width: 200px;
+  cursor: pointer;
+}
+.game-container--sBlock{
+  margin: auto;
+  margin-bottom: 25px;
+  background-color: blue;
+  border-top-right-radius: 50%; 
+  height: 200px;
+  width: 200px;  
+  cursor: pointer;
+}
+.game-container--tBlock{
+  margin: auto;
+  background-color: yellow;
+  border-bottom-left-radius: 50%; 
+  height: 200px;
+  width: 200px; 
+  cursor: pointer;
+}
+.game-container--frBlock{
+  margin: auto;
+  background-color: green;
+  border-bottom-right-radius: 50%; 
+  height: 200px;
+  width: 200px; 
+  cursor: pointer;
+
+}
+
+.clickable-div {
+  cursor: pointer;
+}
+
+
+
+.border{
+  border: 2px white solid;
+}
+
+
+
+
+
